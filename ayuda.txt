@@ -1,0 +1,88 @@
+ESTE PROYECTO NO USA HOOKS
+
+1-. Instalar nodejs
+
+2-. Actualizar en npm
+npm install -g npm@latest
+
+2.1.- ver versión de npm
+npm -- version
+
+3-. Borrar Caché del npm
+npm cache clean --force
+
+4-.Instalar interprete de consola (CLI) que permite instalar react.
+npm install -g create-react-app
+
+4-.Saber versión de react instalado
+4.1-.npm view react version
+
+5-. Crear el proyecto
+create-react-app NombreDeMiProyecto
+
+6-. Iniciar servidor
+npm start
+
+
+
+=========================================
+
+Integrar bootswwatch en bootstrap
+
+Para integrar el nuevo estilo de bootstrap (bootswatch) hacerlo en : public > index.html
+
+
+========================================
+
+Se creó carpeta component..
+(Se borró el app.css yu logo svg)
+
+=========================================
+
+Para crear título en el buscador, dentro de app.js se creó código html así tal cual.
+
+=========================================
+
+CREACIÓN DE COMPONENTE Buscador.js , pero como lo estoy haciendo todo en inglés, voy a ponerlo como Searcher.js
+
+Existen 2 tipos de componentes:
+-class component
+    *Métodos de ciclo de vida
+    *Almacena el state
+    *Se puede usar palabra this.
+
+
+-function component
+    *Sólo permito funciones, y nada de lo anterior
+
+
+
+1-. Se creó un componente del tipo class dentro de la carpeta componentes, y este se envió a app.js
+*Para tomar los datos que se ponen dentro del input text dentro del componente, es necesario tomar los datos con un ref, y esto pasarlo
+a una función para que sea usado dentro de otro lado.*
+
+
+
+=========================================
+
+PROPS (COMUNICADOR ENTRE COMPONENTES)
+
+Props sirve para comunicar entre componentes.
+
+La idea, es mandar el dato tomado desde el componente, y tomarlo desde el app.js y no desde el componenten en sí.
+
+==========================================
+
+
+RECORDATORIO
+==========================================
+
+Searcher.js pasa los datos a App.js
+
+Searcher.js                                      Apps.js >> state y callback
+(form)    >obtener datos y lerrlos >>>>>>>>>>>>>>>>
+
+COMPONENTES:
+Se usó componente Image.js en ImageResult.js
+
+
